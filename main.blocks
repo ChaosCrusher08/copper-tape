@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="_@i=wW~{7{2:lzX+6|pL" x="225" y="20"><statement name="HANDLER"><block type="controls_if" id="8dnn/1W{2}x@/LSHBIGB"><mutation else="1"/><comment>asks if the curciut is connected.</comment><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="%HrT?1ysv?8yq6|o/C`9"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="JZX|{C+2@YO!};uZ-e]@"><field name="name">DigitalPin.P0</field></block></value><value name="B"><shadow type="math_number" id=".-;QAx=dIOwh88oC)9M:"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="basic_show_icon" id="TnF7j.?@6I!1OI/n3zqs"><field name="i">IconNames.Yes</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="Qh_U3:Ii$fzM7OA[h$S/"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement></block></statement></block></xml>
